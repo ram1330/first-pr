@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #252323;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 300;
+}
+
+.logoWithNav {
+  margin-left: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.logoLink {
+  font-size: 69px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.time {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navLink {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.searchCity {
+  max-width: 711px;
+  margin: 50px auto;
+}
+
+.searchInputWrapper {
+  position: relative;
+}
+
+.searchInput {
+  padding: 15px 0;
+  width: 711px;
+  border: 1px solid;
+  background: #D9D9D9;
+  border-radius: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  padding-left: 103px;
+}
+
+.searchInput::placeholder {
+  color: #524E4E;
+}
+
+.searchInputWrapper::before {
+  content: url(./images/icon_search_.svg);
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 41px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cityCard {
+  width: 817px;
+  height: 425px;
+  margin: 0 auto;
+  background: linear-gradient(112.75deg, #AD36CB 26.14%, #333333 67.37%);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  box-shadow: 0px 4px 4px 0px #FFFAFA40;
+  box-shadow: 0px 4px 4px 0px #FDF5F540;
+  border-radius: 32px;
+  position: relative;
+}
+
+.weatherDescr {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
+  left: 15%;
+}
+
+.weatherDescr > div > p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.cityCard {
+  padding-top: 40px;
+}
+
+.cityName {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.cityName::after {
+  content: url(./images/icon_location_.svg);
+}
+
+.mainDegree{
+  font-size: 70px;
+  margin-top: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainDegree::before {
+  content: url(./images/icon_temperature_.svg);
+  margin-right: 20px;
+}
+
+.date {
+  margin-left: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.weatherDescr1 {
+  text-align: center;
+  text-transform: uppercase;
+}

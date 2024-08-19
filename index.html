@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="weatherIcon">
+      <img class="weatherIconImg" src="" alt="weatherIcon">
+    </div>
+    <div class="logoWithNav">
+      <div class="logo">
+        <a class="logoLink" href="#">
+          WeatherMe
+        </a>
+        <span class="time"></span>
+      </div>
+      <nav class="nav">
+        <a href="#" class="navLink">Today</a>
+        <a href="#" class="navLink">Tomorrow</a>
+        <a href="#" class="navLink">Monthly Forecast</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="degree"></div>
+
+  <div class="searchCity">
+    <form class="searchInputWrapper">
+      <input class="searchInput" type="text" placeholder="Search location...">
+    </form>
+  </div>
+
+
+  <div class="cityCard">
+    <h3 class="cityName"></h3>
+    <p class="mainDegree"></p>
+    <p class="date"></p>
+
+    <div class="weatherDescr">
+      <div class="humidity weatherDescr1">
+        <p class="humidity1">Humidity</p>
+        <p class="humidityValue"></p>
+      </div>
+      <div class="visiblity weatherDescr1">
+        <p class="visiblity1">Visiblity</p>
+        <p class="visiblityValue"></p>
+      </div>
+      <div class="pressure weatherDescr1">
+        <p class="pressure1">Air Pressure</p>
+        <p class="pressureValue"></p>
+      </div>
+      <div class="wind weatherDescr1">
+        <p class="wind1">Wind</p>
+        <p class="windValue"></p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
